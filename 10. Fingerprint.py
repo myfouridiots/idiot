@@ -1,3 +1,17 @@
+'''
+
+black-- gnd
+green -- txd
+yellow -- rxd
+red -- 5v (2)
+
+
+>> sudo apt-get update/upgrade
+>> sudo pip3 install pyfingerprint
+go to directory where your code instaled and run with commandd
+>> sudo python filename.extension 
+'''
+
 import time
 from pyfingerprint.pyfingerprint import PyFingerprint
 import RPi.GPIO as gpio
